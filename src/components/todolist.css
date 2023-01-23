@@ -1,0 +1,71 @@
+.card{
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    background-color: rgb(197, 240, 241);
+    margin-top: 10%;
+    border-radius: 8px;
+}
+
+.outercart{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.strip{
+    background-color: blue;
+    padding: 8px;
+    font-weight: 800;
+    text-align: center;
+    color: aliceblue;
+    box-shadow: 4px 4px 4px 4px rgba(0,0,0,0.2);
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+input{
+    margin: 0px;
+    height: 26px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid rgb(211, 73, 211);
+    outline: none;
+    background-color: rgb(197, 240, 241);
+    font-size: 18px;
+    
+}
+input:focus{
+    background-color: rgb(197, 240, 241);
+
+}
+
+.plus-icon{
+padding: 5px;
+margin: 0px;
+font-size: 18px;
+background-color: rgb(211, 73, 211);
+border-radius: 5px;
+border: none;
+color: aliceblue;
+box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+cursor: pointer;
+
+}
+
+.item{
+    padding: 7px;
+    color: rgb(211, 73, 211);
+    cursor: pointer;
+
+}
+
+.item-list{
+    display: flex;
+}
+
+form{
+    margin-bottom: 10px;
+}
